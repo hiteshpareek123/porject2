@@ -1,0 +1,17 @@
+table{
+    width: 100%;
+}
+
+table tr th{
+    padding: 20px;
+    font-size: 23px;
+    border: 2px solid red;
+}
+
+table tr th a{
+    color: red;
+}
+
+table tr th a:hover{
+    color: #333;
+}
