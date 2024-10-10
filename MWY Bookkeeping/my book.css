@@ -1,0 +1,666 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    float: left;
+    max-width: 1900px;
+}
+
+
+.book {
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.left {
+    float: left;
+    padding-top: 20px;
+}
+
+.right {
+    float: right;
+    padding-top: 22px;
+    padding-bottom: 26px;
+
+}
+
+.right ul li {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.right li {
+    font-size: 22px;
+}
+
+.right button {
+    padding: 21px 54px;
+    border: none;
+    background-color: #077d5b;
+    color: white;
+}
+
+.right a {
+	text-decoration: none;
+	color: black;
+}
+.who {
+    width: 100%;
+    float: left;
+    background-image: url(services.png);
+    background-size: cover;
+}
+
+.sized {
+    width: 100%;
+    float: left;
+    padding-top: 377px;
+    padding-bottom: 285px;
+    text-align: center;
+}
+
+.sized h1 {
+    font-size: 52px;
+    color: white;
+}
+
+.sized p {
+    width: 594px;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+    padding-top: 51px;
+}
+
+.sized button {
+    margin-top: 33px;
+    padding: 22px 32px;
+    font-size: 22px;
+    color: #077d5b;
+}
+
+.ab {
+    width: 100%;
+    float: left;
+    max-width: 1900px;
+}
+
+.tow {
+    width: 50%;
+    float: left;
+}
+
+.one {
+    width: 50%;
+    float: left;
+    padding-top: 133px;
+    padding-left: 105px;
+    background-color: #e7f6f2;
+    padding-bottom: 99px;
+}
+
+
+.tow img {
+    max-width: 100%;
+}
+
+.one h2 {
+    font-size: 40px;
+}
+
+.one p {
+    font-size: 20px;
+    padding-top: 65px;
+}
+
+.one h6 {
+    font-size: 18px;
+    padding-top: 39px;
+}
+
+
+.one button {
+    margin-top: 69px;
+    padding: 20px 60px;
+    background-color: #077d5b;
+    color: white;
+    font-size: 22px;
+}
+
+.ac1 {
+    width: 100%;
+    float: left;
+}
+
+.acc {
+    width: 33%;
+    float: left;
+    border: 1px solid;
+    padding-top: 37px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+    padding-bottom: 44px;
+    border-bottom: 3px solid #077d5b;
+}
+
+.ac {
+    max-width: 1469px;
+    margin: auto;
+}
+
+.eri {
+    width: 100%;
+    float: left;
+    max-width: 1900px;
+}
+
+.kei {
+    width: 33%;
+    float: left;
+    position: relative;
+   
+}
+
+.expe {
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+}
+
+.kei h3 {
+    color: white;
+    padding-bottom: 43px;
+    font-size: 31px;
+}
+
+.class {
+    background-color: #077d5b;
+    text-align: center;
+    padding-top: 46px;
+}
+.kei-class {
+    position: absolute;
+    top: 71px;
+    left: 41px;
+    display: none;
+}
+
+.kei-class img{
+    width: 60%;
+}
+
+.kei:hover{
+    display: block;
+    
+}
+.boy {
+    background-color: #077d5b;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.col {
+    background-color: #077d5b;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.ke {
+    display: flex;
+    gap: 30px;
+    padding-top: 121px;
+}
+
+.kei h2 {
+    padding-top: 37px;
+    color: white;
+    font-size: 21.31px;
+}
+
+.kei img {
+    width: 60%;
+}
+
+.meet {
+    padding-top: 67px;
+}
+
+.meet h1 {
+    font-size: 40px;
+}
+
+.pr {
+    width: 100%;
+    float: left;
+    background-image: url(don.png);
+    margin-top: 65px;
+    max-width: 1900px;
+}
+
+.ing {
+    width: 33%;
+    float: left;
+    padding-top: 148px;
+    padding-bottom: 138px;
+}
+
+.ing p {
+    font-size: 20px;
+    color: white;
+}
+
+.ing h1 {
+    font-size: 65px;
+    color: white;
+    padding-top: 46px;
+}
+
+.ran {
+    width: 100%;
+    float: left;
+
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+.acc h1 {
+    font-size: 25px;
+    padding-top: 25px;
+
+}
+
+.acc p {
+    padding-top: 21px;
+    font-size: 18px;
+    width: 379px;
+    margin: auto;
+}
+
+.acc1 h1 {
+    font-size: 25px;
+    padding-top: 25px;
+
+}
+
+.acc1 p {
+    padding-top: 21px;
+    font-size: 18px;
+    width: 379px;
+    margin: auto;
+}
+
+
+.acc1 {
+    width: 33%;
+    float: left;
+    border: 1px solid;
+    padding-top: 37px;
+    margin-top: 53px;
+    margin-bottom: 94px;
+    padding-bottom: 37px;
+    border-bottom: 3px solid #077d5b;
+}
+
+.are {
+    text-align: center;
+    padding-top: 83px;
+}
+
+.are h1 {
+    font-size: 40px;
+}
+
+.are p {
+    font-size: 20px;
+    padding-top: 37px;
+}
+
+.acc1:hover {
+    background-color: green;
+    color: #077d5b;
+}
+
+.acc:hover {
+    background-color: yellow;
+    color: #077d5b;
+}
+
+.bce {
+    width: 50%;
+}
+
+.bce::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(moed.png);
+    float: left;
+
+}
+
+.lat {
+    width: 100%;
+    float: left;
+    max-width: 1900px;
+}
+
+.est {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.ne {
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 20px;
+}
+
+.man {
+    width: 33%;
+    float: left;
+}
+
+.ws {
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 61px;
+}
+
+.ws h1 {
+    font-size: 40px;
+}
+
+.man h1 {
+    font-size: 27.59px;
+}
+
+.man p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+span {
+    color: #077d5b;
+}
+
+.man img {
+    max-width: 100%;
+}
+
+.button button {
+    padding: 21px 37px;
+    margin-top: 30px;
+    background-color: #077d5b;
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+.you {
+    width: 100%;
+    float: left;
+}
+
+.c1 {
+    margin-top: 67px;
+    text-align: center;
+    width: 100%;
+}
+
+.c2 {
+    text-align: center;
+    width: 100%;
+
+}
+
+.c2 input {
+    width: 35%;
+    padding: 21px 71px;
+    font-size: 16px;
+}
+
+.c1 input {
+    width: 35%;
+    padding: 21px 71px;
+    font-size: 16px;
+}
+
+.ick {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.ick h1 {
+    font-size: 40px;
+    padding-bottom: 53px;
+}
+
+.ick p {
+    font-size: 20px;
+}
+
+.sub {
+    width: 100%;
+    float: left;
+    padding-left: 206px;
+}
+
+.sub input {
+    width: 83%;
+    margin-top: 14px;
+    padding: 22px 123px;
+}
+
+.sed {
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 54px;
+}
+
+.sed button {
+    padding: 22px 98px;
+    background-color: #077d5b;
+    color: white;
+    font-size: 16px;
+}
+
+.viu {
+    width: 100%;
+    float: left;
+    background-color: #077d5b;
+}
+
+.phon {
+    width: 100%;
+    float: left;
+}
+
+.ram {
+    width: 20%;
+    float: left;
+}
+
+.coll {
+
+    width: 100%;
+    float: left;
+    padding-top: 51px;
+    padding-bottom: 51px
+}
+
+.coll ul li {
+    display: inline-block;
+    padding-left: 16px;
+    color: white;
+}
+
+.coll img {
+    max-width: 100%;
+    float: left;
+    padding-left: 99px;
+}
+
+.coll p {
+    float: left;
+    padding-left: 10px;
+    padding-top: 16px;
+    font-size: 20px;
+}
+
+.whie{
+    width: 100%;
+    float: left;
+}
+
+.hom {
+    width: 25%;
+    float: left;
+}
+
+.hom ul li {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.hom p {
+    padding-bottom: 14px;
+    font-size: 16px;
+}
+
+.png {
+    width: 100%;
+    float: left;
+    padding-left: 178px;
+    display: flex;
+    gap: 304px;
+    margin-top: 54px;
+}
+
+.hom h1 {
+    padding-bottom: 37px;
+    font-size: 20pxpx;
+}
+
+.hom img{padding-bottom: 35px;}
+
+@media only screen and (max-width:499px) {
+    .ran {
+        width: 100%;
+        padding: 0px 15px;
+        display: block;
+    }
+
+    .acc {
+        width: 100%;
+    }
+
+    .left img {
+        max-width: 64%;
+        margin-left: 9px;
+    }
+
+    .tow {
+        width: 100%;
+    }
+
+    .acc1 {
+        width: 100%;
+    }
+
+    .one {
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .one p{
+        font-size: 12px;
+    }
+
+    .one h6{
+        font-size: 10px;
+        line-height: 1.5;
+    }
+
+
+    .ke {
+        display: block;
+        padding: 0px 16px;
+    }
+
+    .kei {
+        width: 100%;
+    }
+
+    .who {
+        background-size: cover;
+    }
+
+    .pr {
+        background-size: cover;
+    }
+
+    .class {
+        margin-bottom: 16px;
+    }
+
+    .boy {
+        margin-bottom: 16px;
+    }
+
+    .ing {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .are p {
+        margin: 0px 16px;
+        font-size: 14px;
+    }
+
+    .are h1 {
+        font-size: 33px;
+    }
+
+    .sub {
+        padding-left: 1px;
+    }
+
+    .sub input {
+        width: 100%;
+    }
+
+    .c1 input {
+        width: 100%;
+    }
+
+    .c2 input {
+        width: 100%;
+    }
+
+    .hom p{display: none;}
+    .hom h1{display: none;}
+    .no img{display: none;}
+    .man p{display: none;}
+    .man h1{display: none;}
+
+}

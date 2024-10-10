@@ -1,0 +1,589 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    float: left;
+    background-color:#f1f1f1;
+    color: #000;
+}
+nav {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-header i {
+  padding-right: 12px;
+  color: white;
+}
+
+.logo {
+  background-color: #f44336;
+}
+.nav-header {
+  /* width: 100%; */
+  float: left;
+}
+
+.nav-header ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-header li {
+  padding: 8px 16px;
+  font-size: 18px;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-header li:hover {
+  background-color: #ccc;
+  color: #000;
+}
+.navber-right {
+  float: right;
+  padding: 8px 16px;
+}
+.navber-right button {
+  padding: 12px 24px;
+}
+
+.section1 {
+  width: 100%;
+  float: left;
+}
+
+.section2 {
+  max-width: 97%;
+  margin: auto;
+}
+
+.section3 {
+  width: 100%;
+  position: relative;
+}
+
+.section3 img {
+  max-width: 100%;
+}
+
+.section-main {
+	width: 50%;
+	float: left;
+	position: absolute;
+	top: 35%;
+	left: 3%;
+}
+
+.section-from {
+	width: 100%;
+	float: left;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr;
+	background-color: #ffff;
+	padding-bottom: 30px;
+}
+.section-iteam {
+  width: 100%;
+  float: left;
+  background-color: #f44336;
+  padding: 8px 16px;
+}
+
+.section-iteam i {
+  padding-right: 20px;
+  color: white;
+}
+
+.section4 label{
+    font-size: 15px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+
+.section-from input {
+	width: 100%;
+	padding: 10px;
+    /* margin-top: 20px; */
+}
+
+
+.section4 label i{
+    padding-right: 14px;
+}
+
+.section4 {
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 19px;
+}
+
+.section-iteam h2{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.section4 button{
+    color: #fff;
+  background-color: #616161;
+  padding: 8px 14px;
+  font-family: "Raleway", sans-serif;
+}
+
+.section4 button i{
+    padding-right: 16px;
+}
+
+.section4 button:hover{
+    background-color: #ccc;
+    color: #000;
+
+}
+
+.section-1{
+    width: 100%;
+    float: left;
+}
+
+.section-2 {
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+
+.section-2 h3 {
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: #000;
+	padding-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 15px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+
+.section-form {
+	width: 100%;
+	float: left;
+	display: flex;
+	gap: 21px;
+	padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+.section-4{
+    width: 20%;
+}
+
+.section-4 input{
+    width: 100%;
+    padding: 8px;
+}
+
+.section-4 button {
+	padding: 9px 83px;
+	background: none;
+	color: #fff;
+	background-color: #000;
+	border:none;
+    width: 100%;
+}
+
+.section-4 label {
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+
+}
+
+
+.section-4 button:hover{
+    background-color: #ccc;
+    color: #000;
+
+}
+
+
+.section-iteam1{
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 20px;
+}
+
+.section-img{
+    width: 33%;
+    background-color:white;
+    color: #000;
+    border: 1px solid white;
+}
+
+.section-img img{
+    width: 100%;
+}
+
+.section-img h3{
+	padding: 10px 0px;
+	margin-left: 17px;
+	font-size: 24px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+.section-img h6{
+    opacity: 0.60;
+    font-size: 16px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.section-img p{
+	margin: 10px 0px;
+	padding-left: 18px;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.section-img button{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        background-color: #000;
+        color: #fff;
+        font-size: 15px;
+}
+
+.section-img button:hover{
+    background-color: #ccc;
+    color: #000;
+
+}
+
+.section-contact{
+    width: 100%;
+    float: left;
+    display: flex;
+    gap: 26px;
+    padding-top: 48px;
+}
+
+.section-contact1 {
+	width: 30%;
+	padding-block: 29px;
+}
+
+.section-contact1 h3{
+    font-size: 24px;
+  font-weight: 400;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+
+}
+
+
+.section-contact1 h6{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    padding-top: 71px;
+}
+
+.section-contact1 p{
+    font-size: 15px;
+    color: #000;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+.section-contact2{
+    width: 70%;
+
+}
+
+.section-contact2 img{
+    max-width: 100%;
+    filter: grayscale(75%);
+}
+.section-hotel {
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-top: 30px;
+}
+.w3-third{
+    width: 33%;
+}
+
+.w3-third i{
+  color: #f44336;
+}
+
+.w3-third p{
+  font-size: 15px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.marker {
+	width: 100%;
+	float: left;
+	padding-block: 32px;
+	color: #fff;
+	background-color: #f44336;
+	margin-block: 18px;
+}
+
+.marker i {
+  color: #fff;
+  background-color: #ff5722;
+  padding: 8px 16px;
+  margin-right: 16px;
+}
+
+.marker  h6 {
+  padding-left: 30px;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	margin: 10px 0;
+	font-size: 16px;
+	color: white;
+	line-height: 1.5;
+}
+
+.Cinque-Terre{
+  width: 100%;
+  float: left;
+  display: flex;
+  gap: 20px;
+}
+
+.Cinque-Terre1 img{
+  max-width: 100%;
+  height: 99%;
+}
+.Cinque-Terre1 span{
+	position: absolute;
+	bottom: 22px;
+	left: 15px;
+	font-size: 18px;
+	color: white;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.Cinque-Terre1{
+  width: 50%;
+position: relative;
+}
+
+.Cinque-Terre2{
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.terre img{
+  max-width: 100%;
+}
+
+.terre {
+  position: relative;
+}
+
+.terre span{
+	position: absolute;
+	bottom: 18px;
+	left: 15px;
+  color: #f1f1f1;
+  font-size: 18px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.offers-main {
+	width: 100%;
+	float: left;
+	background-color: #000;
+	color: #fff;
+	padding-left: 29px;
+	margin-block: 40px;
+}
+
+.offers-main h2 {
+	font-size: 30px;
+	font-weight: 400;
+	margin: 10px 0;
+	color: #fff;
+	line-height: 1.5;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.offers-main p {
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	padding-block: 10px;
+}
+
+.offers-main input {
+	width: 98%;
+	padding: 8px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+
+}
+
+.offers-main label{
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.offers-main  button {
+	color: #fff;
+	background-color: #f44336;
+	padding: 8px 16px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  border: none;
+  margin-block: 30px;
+}
+
+.hotel-form{
+  width: 100%;
+  float: left;
+}
+
+.hotel-form h2 {
+	font-size: 30px;
+	font-weight: 400;
+	margin: 10px 0;
+	color: #fff;
+	line-height: 1.5;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+
+}
+
+.hotel-form p {
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	color: #000;
+	padding-block: 10px;
+}
+
+.hotel-form i{
+  color: #ff5722;
+  padding-right: 16px;
+}
+
+.hotel-form input{
+  width: 100%;
+  padding: 12px;
+}
+
+.hotel-form button  {
+  color: #fff ;
+  background-color: #000 ;
+  padding: 12px 24px ;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.hotel-form button:hover{
+  background-color: #616161;
+  color: #000;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	padding-block: 32px;
+  background-color: #000;
+  color: white;
+}
+
+footer h5
+  {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    color: #fff;
+  }
+
+  footer i{
+    font-size: 24px;
+      /* padding-left: 45%; */
+      padding-top: 22px;
+      color: white;
+    }
+
+ .brands{
+  text-align: center;
+ }   
+
+ footer p{
+  text-align: center;
+  padding-top: 19px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Cinque-Terre {
+    flex-wrap: wrap;
+  }
+
+  .Cinque-Terre1 {
+    width: 100%;
+    /* position: relative; */
+  }
+
+  .section-iteam1 {
+    flex-wrap: wrap;
+  }
+
+  .section-img {
+    width: 100%;
+  }
+
+  .section-contact1 {
+    width: 100%;
+    /* padding-block: 29px; */
+  }
+  .section-contact {
+   flex-wrap: wrap;
+  }
+
+  .section-contact2 {
+    width: 100%;
+  }
+}
